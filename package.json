@@ -18,9 +18,12 @@
   "homepage": "https://github.com/brycemck/rosetownstudios.com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.2",
+    "gulp": "^4.0.1",
     "liquidjs": "^8.1.0"
   },
   "dependencies": {
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
     "normalize.css": "^8.0.1"
   }
 }
