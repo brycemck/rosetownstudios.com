@@ -1,0 +1,26 @@
+{
+  "name": "rosetownstudios.com",
+  "version": "0.0.1",
+  "description": "The source code for RoseTown Studios' website, rosetownstudios.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brycemck/rosetownstudios.com.git"
+  },
+  "author": "RoseTown Studios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brycemck/rosetownstudios.com/issues"
+  },
+  "homepage": "https://github.com/brycemck/rosetownstudios.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.2",
+    "liquidjs": "^8.1.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
