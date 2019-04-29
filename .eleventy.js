@@ -1,8 +1,7 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("_src/_assets");
 
   return {
-    templateFormats: ["md", "liquid"],
+    templateFormats: ["md", "liquid", "css", "js", "jpg", "png", "svg"],
     passthroughFileCopy: true,
     dir: {
       input: "_src",

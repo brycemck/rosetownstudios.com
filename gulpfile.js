@@ -9,3 +9,20 @@ gulp.task('build:sass', function() {
       .on('error', sass.logError))
     .pipe(gulp.dest('./_src/_assets/css'))
 });
+
+gulp.task('watch:sass', function() {
+  gulp.watch('./_src/_assets/sass/**/*.scss', gulp.parallel('build:sass'));
+});
+
+gulp.task('watch', gulp.parallel(
+  'watch:sass'
+));
+
+gulp.task('build', gulp.parallel(
+  'build:sass'
+));
+
+gulp.task('go', gulp.series(
+  'build',
+  'watch'
+));

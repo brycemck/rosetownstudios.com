@@ -304,7 +304,7 @@ template {
   display: none; }
 
 body {
-  background-color: black; }
+  background-color: #f6f6f6; }
 
 @media screen and (min-width: 600px) {
   body {
@@ -316,4 +316,4 @@ body {
 
 @media screen and (min-width: 1200px) {
   body {
-    background-color: red; } }
+    background-color: blue; } }
