@@ -19,12 +19,22 @@
   "homepage": "https://github.com/brycemck/rosetownstudios.com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.2",
+    "browser-sync": "^2.26.5",
     "gulp": "^4.0.1",
-    "liquidjs": "^8.1.0"
+    "gulp-concat": "^2.6.1",
+    "gulp-exec": "^3.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^5.0.1",
+    "liquidjs": "^8.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
   },
   "dependencies": {
+    "es6-shim": "^0.35.5",
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.0.9",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "systemjs": "^3.1.6"
   }
 }

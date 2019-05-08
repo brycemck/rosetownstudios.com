@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
 
   return {
-    templateFormats: ["md", "liquid", "css", "js", "jpg", "png", "svg"],
+    templateFormats: ["md", "liquid", "css", "js", "jpg", "png", "svg", "map", "ts", "scss"],
     passthroughFileCopy: true,
     dir: {
       input: "_src",
